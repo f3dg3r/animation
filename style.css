@@ -1,0 +1,114 @@
+body {
+    background-image: url(https://5koleso.ru/wp-content/uploads/2020/09/img_1503-scaled.jpg);
+    background-size: 1920px;
+    background-repeat: no-repeat;
+}
+
+
+.car {
+    width: 300px;
+    height: 70px;
+    background-color: blueviolet;
+    border-radius: 10px;
+   display: flex;
+   justify-content: space-between;
+ 
+  
+   
+
+}
+
+.container {
+    display: flex;
+    justify-content: start;
+    position: relative;
+    align-items: center;
+    flex-flow: column;
+    right: 780px;
+    animation: drive 5s linear  forwards;
+    width: 100px;
+    margin-top: 650px;
+   
+    
+    
+
+}
+
+.wheel {
+    height: 70px;
+    width: 70px;
+    background-color: black;
+    display: flex;
+    flex-flow: column;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+
+.wheel-mane {
+    gap:150px;
+    display: flex;
+   
+  
+}
+
+.glass {
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+   
+    border: 3px solid blueviolet;
+    transform: skew(30deg, 0);
+    position: relative;
+    left: 50px;
+    
+   
+  
+}
+
+.disk {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(44, 40, 40);
+    border-radius: 50%;
+   
+ 
+}
+
+
+
+.light {
+    width: 15px;
+    height: 15px;
+    background-color: brown;
+}
+
+@keyframes drive {
+    0% {
+       
+      left: -150px;
+    }
+  
+    80% {
+    top: 100px;
+    
+      left: calc(100% - 250px);
+    }
+  
+    100% {
+      left: calc(100% - 250px);
+      top: 100px;
+    }
+  }
+
+  .people {
+    width: 100px;
+    height: 100px;
+    background-image: url(https://e7.pngegg.com/pngimages/812/681/png-clipart-american-football-protective-gear-clothing-helmet-7-years-costume-race-driver.png);
+    position: relative;
+    bottom: 240px;
+    right: 40px;
+    background-size: cover;
+  }
